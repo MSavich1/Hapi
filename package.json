@@ -9,6 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/hapi": "^20.2.1"
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/inert": "^6.0.5",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/vision": "^6.1.0",
+    "handlebars": "^4.7.7",
+    "hapi-geo-locate": "^4.1.1",
+    "joi": "^17.6.0",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.15",
+    "qs": "^6.10.3"
   }
 }

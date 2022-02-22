@@ -49,7 +49,6 @@ const init = async () => {
       method: "GET",
       path: "/",
       handler: (request, h) => {
-        // return request.query;
         return h.file("welcome.html");
       },
     },
@@ -127,28 +126,6 @@ const init = async () => {
       },
     },
   ]);
-
-  // server.route({
-  //     method: 'GET',
-  //     path: '/users/{user?}',
-  //     handler: function (request, h) {
-
-  //         if(request.params.soccer){
-  //             return `Hello ${request.params.user}`
-  //         }else{
-  //             return 'Hello Stranger!'
-  //         }
-  //     }
-  // });
-
-  //  server.route({
-  //     method: 'GET',
-  //     path: '/users/{user?}',
-  //     handler: function (request, h) {
-
-  //        return `<h1>${request.query.name} ${request.query.age}</h1>`
-  //     }
-  // });
 
   await server.start();
   console.log("Server running on %s", server.info.uri);

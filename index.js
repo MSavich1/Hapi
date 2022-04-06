@@ -42,7 +42,7 @@ const init = async () => {
     },
     path: path.join(__dirname, "views"),
     layout: "default",
-  });
+  });   
 
   server.route([
     {

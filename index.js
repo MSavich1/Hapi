@@ -26,7 +26,7 @@ const init = async () => {
       plugin: require("hapi-geo-locate"),
       options: {
         enabledByDefault: true,
-      },
+      }, 
     },
     {
       plugin: Inert,

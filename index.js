@@ -28,7 +28,7 @@ const init = async () => {
         enabledByDefault: true,
       }, 
     },
-    {
+    {   
       plugin: Inert,
     },
     {

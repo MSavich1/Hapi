@@ -29,10 +29,10 @@ const init = async () => {
       }, 
     },
     {   
-      plugin: Inert,
+      plugin: Inert,    
     },
     {
-      plugin: Vision,
+      plugin: Vision,    
     },
   ]);
 

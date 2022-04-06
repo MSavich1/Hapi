@@ -45,7 +45,7 @@ const init = async () => {
   });   
 
   server.route([
-    {
+    {     
       method: "GET",
       path: "/",
       handler: (request, h) => {

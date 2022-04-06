@@ -46,7 +46,7 @@ const init = async () => {
 
   server.route([
     {     
-      method: "GET",
+      method: "GET",     
       path: "/",
       handler: (request, h) => {
         return h.file("welcome.html");

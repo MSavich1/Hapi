@@ -42,11 +42,11 @@ const init = async () => {
     },
     path: path.join(__dirname, "views"),
     layout: "default",
-  });
+  });   
 
   server.route([
-    {
-      method: "GET",
+    {     
+      method: "GET",     
       path: "/",
       handler: (request, h) => {
         return h.file("welcome.html");
